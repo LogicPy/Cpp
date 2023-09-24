@@ -1,0 +1,10 @@
+^E:\LOLLMS_CPP_CLIENT-MAIN\EXTERNAL\SRC\SOCKETIO-CLIENT-CPP-BUILD\CMAKEFILES\77851F7536D8233DD6CC652EADFD62CE\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

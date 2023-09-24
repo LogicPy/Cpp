@@ -1,0 +1,10 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\ue_5.3\\ai_model_local_9\\plugins\\gpt3_local_ai_plugin\\source\\gpt3_local_ai_plugin\\thirdparty\\libs\\external\\src\\socketio-client-cpp-build\\cmakefiles\\3.27.5\\compileridc\\cmakeccompilerid.c",
+        "ProvidedModule": "",
+        "Includes": [
+            "e:\\ue_5.3\\ai_model_local_9\\plugins\\gpt3_local_ai_plugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gpt3_local_ai_plugin\\definitions.c.h"
+        ]
+    }
+}

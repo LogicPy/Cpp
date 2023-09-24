@@ -1,0 +1,150 @@
+^E:\LOLLMS_CPP_CLIENT-MAIN\EXTERNAL\SRC\SOCKETIO-CLIENT-CPP-BUILD\_DEPS\CATCH2-SUBBUILD\CMAKEFILES\7E932354B52B34BE68C837BCEFF190D8\CATCH2-POPULATE-MKDIR.RULE
+setlocal
+E:\cmake3.26\bin\cmake.exe -Dcfgdir=/Debug -P E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/catch2-populate-prefix/tmp/catch2-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake3.26\bin\cmake.exe -E touch E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LOLLMS_CPP_CLIENT-MAIN\EXTERNAL\SRC\SOCKETIO-CLIENT-CPP-BUILD\_DEPS\CATCH2-SUBBUILD\CMAKEFILES\7E932354B52B34BE68C837BCEFF190D8\CATCH2-POPULATE-DOWNLOAD.RULE
+setlocal
+cd E:\lollms_cpp_client-main\external\src\socketio-client-cpp-build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake3.26\bin\cmake.exe -P E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/catch2-populate-prefix/tmp/catch2-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake3.26\bin\cmake.exe -E touch E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LOLLMS_CPP_CLIENT-MAIN\EXTERNAL\SRC\SOCKETIO-CLIENT-CPP-BUILD\_DEPS\CATCH2-SUBBUILD\CMAKEFILES\7E932354B52B34BE68C837BCEFF190D8\CATCH2-POPULATE-UPDATE.RULE
+setlocal
+cd E:\lollms_cpp_client-main\external\src\socketio-client-cpp-build\_deps\catch2-src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake3.26\bin\cmake.exe -Dcan_fetch=YES -P E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/catch2-populate-prefix/tmp/catch2-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LOLLMS_CPP_CLIENT-MAIN\EXTERNAL\SRC\SOCKETIO-CLIENT-CPP-BUILD\_DEPS\CATCH2-SUBBUILD\CMAKEFILES\7E932354B52B34BE68C837BCEFF190D8\CATCH2-POPULATE-PATCH.RULE
+setlocal
+E:\cmake3.26\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake3.26\bin\cmake.exe -E touch E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LOLLMS_CPP_CLIENT-MAIN\EXTERNAL\SRC\SOCKETIO-CLIENT-CPP-BUILD\_DEPS\CATCH2-SUBBUILD\CMAKEFILES\7E932354B52B34BE68C837BCEFF190D8\CATCH2-POPULATE-CONFIGURE.RULE
+setlocal
+cd E:\lollms_cpp_client-main\external\src\socketio-client-cpp-build\_deps\catch2-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake3.26\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake3.26\bin\cmake.exe -E touch E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LOLLMS_CPP_CLIENT-MAIN\EXTERNAL\SRC\SOCKETIO-CLIENT-CPP-BUILD\_DEPS\CATCH2-SUBBUILD\CMAKEFILES\7E932354B52B34BE68C837BCEFF190D8\CATCH2-POPULATE-BUILD.RULE
+setlocal
+cd E:\lollms_cpp_client-main\external\src\socketio-client-cpp-build\_deps\catch2-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake3.26\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake3.26\bin\cmake.exe -E touch E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LOLLMS_CPP_CLIENT-MAIN\EXTERNAL\SRC\SOCKETIO-CLIENT-CPP-BUILD\_DEPS\CATCH2-SUBBUILD\CMAKEFILES\7E932354B52B34BE68C837BCEFF190D8\CATCH2-POPULATE-INSTALL.RULE
+setlocal
+cd E:\lollms_cpp_client-main\external\src\socketio-client-cpp-build\_deps\catch2-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake3.26\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake3.26\bin\cmake.exe -E touch E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LOLLMS_CPP_CLIENT-MAIN\EXTERNAL\SRC\SOCKETIO-CLIENT-CPP-BUILD\_DEPS\CATCH2-SUBBUILD\CMAKEFILES\7E932354B52B34BE68C837BCEFF190D8\CATCH2-POPULATE-TEST.RULE
+setlocal
+cd E:\lollms_cpp_client-main\external\src\socketio-client-cpp-build\_deps\catch2-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake3.26\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake3.26\bin\cmake.exe -E touch E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LOLLMS_CPP_CLIENT-MAIN\EXTERNAL\SRC\SOCKETIO-CLIENT-CPP-BUILD\_DEPS\CATCH2-SUBBUILD\CMAKEFILES\83EAE1A4B98501A6F0DD49142E9C34AE\CATCH2-POPULATE-COMPLETE.RULE
+setlocal
+E:\cmake3.26\bin\cmake.exe -E make_directory E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake3.26\bin\cmake.exe -E touch E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/CMakeFiles/Debug/catch2-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+E:\cmake3.26\bin\cmake.exe -E touch E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/Debug/catch2-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LOLLMS_CPP_CLIENT-MAIN\EXTERNAL\SRC\SOCKETIO-CLIENT-CPP-BUILD\_DEPS\CATCH2-SUBBUILD\CMAKEFILES\ADE43CF3B74F13B35AEC61E930170E0D\CATCH2-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LOLLMS_CPP_CLIENT-MAIN\EXTERNAL\SRC\SOCKETIO-CLIENT-CPP-BUILD\_DEPS\CATCH2-SUBBUILD\CMAKELISTS.TXT
+setlocal
+E:\cmake3.26\bin\cmake.exe -SE:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild -BE:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild --check-stamp-file E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

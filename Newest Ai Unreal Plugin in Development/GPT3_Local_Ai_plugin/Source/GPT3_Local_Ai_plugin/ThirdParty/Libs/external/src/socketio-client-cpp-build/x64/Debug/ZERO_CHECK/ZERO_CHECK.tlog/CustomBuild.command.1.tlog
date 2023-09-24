@@ -1,0 +1,10 @@
+^E:\LOLLMS_CPP_CLIENT-MAIN\EXTERNAL\SRC\SOCKETIO-CLIENT-CPP-BUILD\CMAKEFILES\77851F7536D8233DD6CC652EADFD62CE\GENERATE.STAMP.RULE
+setlocal
+E:\cmake3.26\bin\cmake.exe -SE:/lollms_cpp_client-main/external/src/socketio-client-cpp -BE:/lollms_cpp_client-main/external/src/socketio-client-cpp-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/sioclient.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

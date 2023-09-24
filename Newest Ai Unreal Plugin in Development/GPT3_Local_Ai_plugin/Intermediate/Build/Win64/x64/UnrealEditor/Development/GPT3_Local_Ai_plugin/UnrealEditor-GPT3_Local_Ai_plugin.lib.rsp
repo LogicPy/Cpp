@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-GPT3_Local_Ai_plugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\UE_5.3\Ai_Model_Local_9\Intermediate\Build\Win64\x64\Ai_Model_Local_9Editor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"E:\UE_5.3\Ai_Model_Local_9\Plugins\GPT3_Local_Ai_plugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\GPT3_Local_Ai_plugin\Module.GPT3_Local_Ai_plugin.cpp.obj"
+"E:\UE_5.3\Ai_Model_Local_9\Plugins\GPT3_Local_Ai_plugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\GPT3_Local_Ai_plugin\CMakeCCompilerId.c.obj"
+"E:\UE_5.3\Ai_Model_Local_9\Plugins\GPT3_Local_Ai_plugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\GPT3_Local_Ai_plugin\Default.rc2.res"
+/OUT:"E:\UE_5.3\Ai_Model_Local_9\Plugins\GPT3_Local_Ai_plugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\GPT3_Local_Ai_plugin\UnrealEditor-GPT3_Local_Ai_plugin.lib"

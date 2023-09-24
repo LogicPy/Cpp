@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/CMakeFiles/catch2-populate"
+		},
+		{
+			"file" : "E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/CMakeFiles/ade43cf3b74f13b35aec61e930170e0d/catch2-populate.rule"
+		},
+		{
+			"file" : "E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/CMakeFiles/83eae1a4b98501a6f0dd49142e9c34ae/catch2-populate-complete.rule"
+		},
+		{
+			"file" : "E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/CMakeFiles/7e932354b52b34be68c837bceff190d8/catch2-populate-build.rule"
+		},
+		{
+			"file" : "E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/CMakeFiles/7e932354b52b34be68c837bceff190d8/catch2-populate-configure.rule"
+		},
+		{
+			"file" : "E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/CMakeFiles/7e932354b52b34be68c837bceff190d8/catch2-populate-download.rule"
+		},
+		{
+			"file" : "E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/CMakeFiles/7e932354b52b34be68c837bceff190d8/catch2-populate-install.rule"
+		},
+		{
+			"file" : "E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/CMakeFiles/7e932354b52b34be68c837bceff190d8/catch2-populate-mkdir.rule"
+		},
+		{
+			"file" : "E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/CMakeFiles/7e932354b52b34be68c837bceff190d8/catch2-populate-patch.rule"
+		},
+		{
+			"file" : "E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/CMakeFiles/7e932354b52b34be68c837bceff190d8/catch2-populate-test.rule"
+		},
+		{
+			"file" : "E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/CMakeFiles/7e932354b52b34be68c837bceff190d8/catch2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"catch2-populate"
+		],
+		"name" : "catch2-populate"
+	}
+}

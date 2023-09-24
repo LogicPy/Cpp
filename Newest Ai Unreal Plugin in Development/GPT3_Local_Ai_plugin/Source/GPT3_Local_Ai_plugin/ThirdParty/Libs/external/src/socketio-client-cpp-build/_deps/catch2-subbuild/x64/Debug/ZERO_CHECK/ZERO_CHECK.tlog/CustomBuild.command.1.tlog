@@ -1,0 +1,10 @@
+^E:\LOLLMS_CPP_CLIENT-MAIN\EXTERNAL\SRC\SOCKETIO-CLIENT-CPP-BUILD\_DEPS\CATCH2-SUBBUILD\CMAKEFILES\ADE43CF3B74F13B35AEC61E930170E0D\GENERATE.STAMP.RULE
+setlocal
+E:\cmake3.26\bin\cmake.exe -SE:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild -BE:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-subbuild/catch2-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

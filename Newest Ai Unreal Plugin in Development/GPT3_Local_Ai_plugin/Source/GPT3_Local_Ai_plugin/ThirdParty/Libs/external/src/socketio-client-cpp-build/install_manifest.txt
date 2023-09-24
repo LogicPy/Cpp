@@ -1,0 +1,10 @@
+E:/lollms_cpp_client-main/external/include/sio_client.h
+E:/lollms_cpp_client-main/external/include/sio_message.h
+E:/lollms_cpp_client-main/external/include/sio_socket.h
+E:/lollms_cpp_client-main/external/lib/sioclient.lib
+E:/lollms_cpp_client-main/external/lib/sioclient_tls.lib
+E:/lollms_cpp_client-main/external/lib/cmake/sioclient/sioclientTargets.cmake
+E:/lollms_cpp_client-main/external/lib/cmake/sioclient/sioclientTargets-debug.cmake
+E:/lollms_cpp_client-main/external/lib/cmake/sioclient/sioclientConfig.cmake
+E:/lollms_cpp_client-main/external/lib/cmake/sioclient/sioclientConfigVersion.cmake
+E:/lollms_cpp_client-main/external/lib/cmake/sioclient/sioclientTargets.cmake

@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+E:/cmake3.26/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+E:/cmake3.26/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake
+E:/cmake3.26/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake
+E:/cmake3.26/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake
+E:/cmake3.26/share/cmake-3.27/Modules/Internal/CheckFlagCommonConfig.cmake
+E:/cmake3.26/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake
+E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-src/CMake/CatchMiscFunctions.cmake
+E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-src/src/CMakeLists.txt
+E:/lollms_cpp_client-main/external/src/socketio-client-cpp-build/_deps/catch2-src/src/catch2/catch_user_config.hpp.in

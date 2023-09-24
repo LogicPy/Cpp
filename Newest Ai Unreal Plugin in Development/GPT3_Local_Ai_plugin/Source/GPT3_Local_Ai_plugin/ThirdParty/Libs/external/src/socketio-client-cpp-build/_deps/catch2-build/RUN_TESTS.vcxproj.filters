@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\lollms_cpp_client-main\external\src\socketio-client-cpp-build\CMakeFiles\86014a4e4da8361e08d13929120f014e\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E5A4FA02-B26E-33E0-9F65-A903630FFD15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
